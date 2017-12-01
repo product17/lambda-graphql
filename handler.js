@@ -1,2 +1,2 @@
-// export the query for sls
-module.exports.asset = require('./dist').asset;
+// export all function for sls
+module.exports = require('./dist');
