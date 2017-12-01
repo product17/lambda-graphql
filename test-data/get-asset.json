@@ -1,0 +1,8 @@
+{
+  "resource": "/query",
+  "path": "/",
+  "httpMethod": "GET",
+  "queryStringParameters": {
+    "query": "{getAsset(assetID: \"tester\")}"
+  }
+}

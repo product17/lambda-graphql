@@ -1,0 +1,8 @@
+{
+  "resource": "/query",
+  "path": "/",
+  "httpMethod": "GET",
+  "queryStringParameters": {
+    "query": "mutation {createAsset(input: {assetID: \"Bosshog2\", url: \"my-cool-url\", title: \"My cool asset 2\", seo: {canonical: \"video\"}})}"
+  }
+}

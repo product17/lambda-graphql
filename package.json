@@ -1,0 +1,27 @@
+{
+  "name": "resource-api",
+  "version": "0.0.0",
+  "description": "Serverless api for resource center resources",
+  "main": "handler.js",
+  "author": "Brent Crocker",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/babel -d ./dist ./src",
+    "start-watch": "./node_modules/.bin/babel -d ./dist ./src --watch"
+  },
+  "dependencies": {
+    "dynamoose": "^0.8.6",
+    "graphql": "^0.11.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.12.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
