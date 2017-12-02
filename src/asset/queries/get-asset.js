@@ -32,7 +32,6 @@ const getAssetSchema = {
       type: new GraphQLNonNull(GraphQLString),
     },
   },
-  // the greeting message is a string
   type: GraphQLString,
   resolve: (parent, args) => getAsset(args.assetID),
 };

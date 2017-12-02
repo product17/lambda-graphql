@@ -1,5 +1,5 @@
 import { graphql } from 'graphql';
-import schema from './asset.schema';
+import { assetSchema as schema } from './schema';
 
 // We want to make a GET request with ?query=<graphql query>
 // The event properties are specific to AWS. Other providers will differ.

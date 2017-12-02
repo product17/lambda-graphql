@@ -6,7 +6,7 @@ import {
 import {
   getAsset,
   // listAssets,
-} from './queries';
+} from '../queries';
 
 // import {
 //   createAsset,
